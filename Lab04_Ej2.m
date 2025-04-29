@@ -19,7 +19,7 @@ b2=-det(A2)/a(4);
 B1=[a(4) a(2);
     b1 b2];
 c1=simplify(-det(B1)/b1);
-C1=[b1 b1;
+C1=[b1 b2;
     c1 0];
 d1=simplify(-det(C1)/c1);
 fprintf('s^4: %s\t\t%s\t\t%s\n',char(a(5)),char(a(3)),char(a(1)));

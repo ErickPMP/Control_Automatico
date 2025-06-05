@@ -1,6 +1,8 @@
 float t;
 unsigned long timeNow,timeNow2,timeOld,timeOld2;
 const unsigned long Ts = 100;
+//const unsigned long Ts = 1000; // 1000Hz
+//const unsigned long Ts = 10000; // 100Hz
 /* //100 Hz
 float b0=0.0,b1=0.759957410305847,b2=0.239936702970382;
 float a0=1,a1=-0.755310406124729,a2=0.0256260890031707;

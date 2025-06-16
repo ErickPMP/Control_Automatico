@@ -6,7 +6,7 @@ float t;
 //float Kp = 14.0,Ki =0.003;
 float b1=14,b2=-13.9995800000000;
 float a1=1,a2=-1;
-
+//KP 14 KI 0.003
 typedef union {
   float number;
   uint8_t bytes[4];
